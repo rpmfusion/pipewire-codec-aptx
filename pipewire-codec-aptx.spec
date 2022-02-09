@@ -5,7 +5,7 @@
 Name:           pipewire-codec-aptx
 Summary:        PipeWire Bluetooth aptX codec plugin
 Version:        %{pipewire_version}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        MIT
 URL:            https://pipewire.org/
 Source0:        https://gitlab.freedesktop.org/pipewire/pipewire/-/archive/%{version}/pipewire-%{version}.tar.gz
@@ -41,6 +41,9 @@ install -pm 0755 %{_vpath_builddir}/spa/plugins/bluez5/libspa-codec-bluez5-aptx.
 %{_libdir}/spa-%{spaversion}/bluez5/libspa-codec-bluez5-aptx.so
 
 %changelog
+* Wed Feb 09 2022 RPM Fusion Release Engineering <sergiomb@rpmfusion.org> - 0.3.42-2
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_36_Mass_Rebuild
+
 * Tue Dec 28 2021 Gergely Gombos <gombosg@disroot.org> - 0.3.42-1
 - Bump Pipewire version
 
