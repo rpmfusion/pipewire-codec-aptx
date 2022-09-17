@@ -12,6 +12,7 @@ Source0:        https://gitlab.freedesktop.org/pipewire/pipewire/-/archive/%{ver
 
 BuildRequires:  meson >= 0.59.0
 BuildRequires:  gcc-c++
+BuildRequires:  pkgconfig(glib-2.0)
 BuildRequires:  pkgconfig(dbus-1)
 BuildRequires:  pkgconfig(bluez)
 BuildRequires:  sbc-devel
