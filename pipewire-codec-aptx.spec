@@ -1,6 +1,6 @@
 %global spaversion   0.2
 
-%global pipewire_version 0.3.58
+%global pipewire_version 0.3.59
 
 Name:           pipewire-codec-aptx
 Summary:        PipeWire Bluetooth aptX codec plugin
@@ -42,6 +42,9 @@ install -pm 0755 %{_vpath_builddir}/spa/plugins/bluez5/libspa-codec-bluez5-aptx.
 %{_libdir}/spa-%{spaversion}/bluez5/libspa-codec-bluez5-aptx.so
 
 %changelog
+* Wed Oct 05 2022 Leigh Scott <leigh123linux@gmail.com> - 0.3.59-1
+- Bump Pipewire version
+
 * Sat Sep 17 2022 Leigh Scott <leigh123linux@gmail.com> - 0.3.58-1
 - Bump Pipewire version
 
