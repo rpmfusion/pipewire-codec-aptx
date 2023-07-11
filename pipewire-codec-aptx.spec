@@ -1,7 +1,5 @@
 %global spaversion   0.2
 
-%global pipewire_version 0.3.72
-
 Name:           pipewire-codec-aptx
 Summary:        PipeWire Bluetooth aptX codec plugin
 Version:        0.3.73
@@ -18,7 +16,7 @@ BuildRequires:  pkgconfig(bluez)
 BuildRequires:  sbc-devel
 BuildRequires:  libfreeaptx-devel
 
-Requires:       pipewire >= %{pipewire_version}
+Requires:       pipewire = %{version}
 
 %description
 PipeWire media server Bluetooth aptX codec plugin.
