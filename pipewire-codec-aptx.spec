@@ -16,7 +16,7 @@ BuildRequires:  pkgconfig(bluez)
 BuildRequires:  sbc-devel
 BuildRequires:  libfreeaptx-devel
 
-Requires:       pipewire = %{version}
+Requires:       pipewire >= %{version}
 
 %description
 PipeWire media server Bluetooth aptX codec plugin.
